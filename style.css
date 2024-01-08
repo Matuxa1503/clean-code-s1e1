@@ -1,7 +1,7 @@
 /* Basic Style */
 * {
-  padding: 0; 
-  margin: 0; 
+  padding: 0;
+  margin: 0;
   border: 0;
 }
 
@@ -28,8 +28,9 @@ button {
   color: #333;
   font-family: "Lato", sans-serif;
 }
+
 .container {
-	width: 500px;
+  width: 500px;
   margin: 0 auto;
   display: block;
 }
@@ -112,6 +113,19 @@ button {
   flex-grow: 1;
 }
 
+.list__edit-input {
+  display: none;
+  margin-left: 10px;
+}
+
+.active {
+  display: block;
+}
+
+.disactive {
+  display: none;
+}
+
 .btn {
   font-family: "Lato", sans-serif;
   font-size: 15px;
@@ -132,4 +146,8 @@ button {
   height: 32px;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
+}
+
+.list__btn-del:hover {
+  transform: rotateZ(0deg);
 }
