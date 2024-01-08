@@ -9,20 +9,22 @@
 
 <body class="body">
   <div class="container">
-    <div class="info">
-      <img class="info__img" src="./eisenhower-matrix.jpg">
-      <a class="info__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
+    <header>
+      <div class="info">
+        <img class="info__img" src="./eisenhower-matrix.jpg">
+        <a class="info__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      </div>
+    </header>
 
-    <div class="list">
-      <div class="list__row">
+    <main class="list">
+      <section class="list__row">
         <div class="list__title list__title_first">Add Item</div>
         <div class="list__content">
           <input class="list__input list__input_add input" id="new-item" type="text"></input>
           <button class="btn">Add</button>
         </div>
-      </div>
-      <div class="list__row">
+      </section>
+      <section class="list__row">
         <div class="list__title">Todo</div>
         <ul class="list__content">
           <li class="list__item">
@@ -40,8 +42,8 @@
             <img class="list__btn-del" src="./remove.svg">
           </li>
         </ul>
-      </div>
-      <div class="list__row list__row_third">
+      </section>
+      <section class="list__row list__row_third">
         <div class="list__title">Completed</div>
         <ul class="list__content">
           <li class="list__item">
@@ -52,8 +54,8 @@
             <img class="list__btn-del" src="./remove.svg">
           </li>
         </ul>
-      </div>
-    </div>
+      </section>
+    </main>
   </div>
   <script src="app.js"></script>
 </body>
