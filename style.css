@@ -22,11 +22,15 @@ button {
   outline: none;
 }
 
+input[type='checkbox'] {
+  cursor: pointer;
+}
+
 .body {
   background-color: #f8f8f8;
   margin: 8px;
   color: #333;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -48,7 +52,7 @@ button {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .info {
     text-align: center;
   }
@@ -89,7 +93,7 @@ button {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #888;
   flex-grow: 1;
 }
@@ -113,6 +117,11 @@ button {
   flex-grow: 1;
 }
 
+.completed {
+  color: #888;
+  text-decoration: line-through;
+}
+
 .list__edit-input {
   display: none;
   margin-left: 10px;
@@ -127,7 +136,7 @@ button {
 }
 
 .btn {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   width: 50px;
   margin-right: 10px;
@@ -146,6 +155,7 @@ button {
   height: 32px;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
+  cursor: pointer;
 }
 
 .list__btn-del:hover {

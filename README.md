@@ -1,13 +1,18 @@
-<img width="1199" alt="code-quality-task-screenshot" src="https://user-images.githubusercontent.com/8201843/113413843-4080fb80-93c4-11eb-9f20-15e4b4c1e430.png">
-
 # Application Functionality :
 
-    - Adding a new item to the "TODO" task list
-    - Editing an item in the "TODO" task list
-    - Deleting an item from the "TODO" task list
-    - Setting an item to completed status and moving it to the "COMPLETED" list via checkbox
+Веб-приложение для управления задачами (TODO-лист)
 
-    - Deleting an item from the "COMPLETED" list
-    - Editing an item from the "COMPLETED" list
-    - Setting an item to "Incomplete" status and moving it to the "TODO" list via checkbox
-    - Animation on the delete button
+- Добавление нового элемента в список задач "TODO"
+- Редактирование элемента в списке задач "TODO"
+- Удаление элемента из списка задач "TODO"
+- Установка элемента в статус "Завершено" и перемещение его в список "COMPLETED" с помощью чекбокса
+- Удаление элемента из списка "COMPLETED"
+- Редактирование элемента из списка "COMPLETED"
+- Установка элемента в статус "Незавершено" и перемещение его обратно в список "TODO" с помощью чекбокса
+- Анимация на кнопке удаления
+
+## Технологии:
+
+1. HTML
+2. CSS
+3. JavaScript
